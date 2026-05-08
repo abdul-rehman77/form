@@ -1,0 +1,65 @@
+ body
+{
+    margin:0;
+   padding:0;
+   background-image:url(background.jpg);
+   background-size:cover;
+   background-position:center;
+    font-family: Arial, sans-serif;
+}
+.signup
+{
+    border:2px solid black;
+    width:300px;
+    box-shadow:0 0 3px 0 rgba(0, 0, 0,0.3);
+  background-color:white;
+    margin: 5% auto 0;
+    text-align:center;
+    border-radius: 10px;
+    background:linear-gradient(rgb(159, 196, 231),rgb(158, 158, 211));
+}
+.button
+{
+    color: rgb(237, 237, 246);
+background-color:135deg rgb(149, 199, 243) rgb(47, 47, 225);
+}
+ 
+.signup h1
+{
+    color: blue;
+    margin-bottom:20px;
+   
+}
+.button
+{
+    color:white;
+    background-color:rgb(47, 47, 225);
+    border:none;
+    border-radius:20px;
+    padding:10px;
+    width:50%;
+    font-size:15px;
+    margin-top:15px;
+    cursor:pointer;
+}
+ @media (max-width: 600px) {
+ 
+    .signup {
+      padding: 15px;
+    }
+}
+input[type="email"],
+input[type="password"] {
+    display: block;
+    width: 250px;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.button:hover
+{
+background-color:rgb(200, 58, 58);
+}
+.check {
+    margin-top: 15px;
+}
